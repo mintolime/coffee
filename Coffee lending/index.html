@@ -18,7 +18,14 @@
   </head>
 
   <body>
-    <article>
+    <!-- Sprite -->
+    <svg style="display:none">
+      <symbol id="shopping_cart" viewBox="0 0 16 20">
+        <g><path d="M0 0H16V20H0V0Z" /></g>
+      </symbol>
+    </svg>
+    <!-- тег для всех svg иконок работает через  symbol  -->
+
     <header class="header">
       <div class="container">
         <div class="header_inner">
@@ -32,12 +39,17 @@
             <a class="nav_link" href="#">About</a>
             <a class="nav_link" href="#">Contact</a>
             <a class="nav_link" href="#">Styleguide</a>
-            <a class="nav_link nav_link--last" href="#">Cart</a>
+            <a class="nav_link nav_link--last" href="#" target="_blank">
+              <svg class="icon">
+                <use xlink:href="#shopping_cart"></use>
+              </svg>
+              <!-- ссылка на svg иконку -->
+              Cart</a>
           </nav>
         </div>
       </div>
       <!-- container -->
-    </header></article>
+    </header>
 
     <!-- INTRO -->
     <div class="intro">
@@ -63,24 +75,34 @@
     <div class="featured">
       <div class="container">
         <div class="features_inner">
-        <span><h1 class="featured_title">Even the all-powerful Pointing has no control<br> about the blind texts.</h1></span>
-        <div class="features_text"> <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth.<br> 
-          Even the all-powerful Pointing has no control about the blind texts it is an <br>
-          almost unorthographic life One day however a small line of blind text by the name of Lorem 
-          <br>Ipsum decided to leave for the far World of Grammar.</p></div>
-        <div >
-          <a class="btn_read" href="#">Read the full Story</a>
-          
+          <span
+            ><h1 class="featured_title">
+              Even the all-powerful Pointing has no control<br />
+              about the blind texts.
+            </h1></span
+          >
+          <div class="features_text">
+            <p>
+              It is a paradisematic country, in which roasted parts of sentences
+              fly into your mouth.<br />
+              Even the all-powerful Pointing has no control about the blind
+              texts it is an <br />
+              almost unorthographic life One day however a small line of blind
+              text by the name of Lorem
+              <br />Ipsum decided to leave for the far World of Grammar.
+            </p>
+          </div>
+          <div id="button">
+            <a class="btn_read" href="#">Read the full Story</a>
+          </div>
         </div>
       </div>
-      </div>
       <!-- container -->
-      
     </div>
     <!-- featured -->
 
     <!-- Product_block1 -->
-   <!--  <div class="product">
+    <!--  <div class="product">
       <div><h2 class="space_title">Featured Mugs</h2></div>
         <div class="proruct_img">
       <div class="Product_block">
@@ -90,9 +112,6 @@
           </div>
         
       <!-- container -->
-     <!-- </div> -->
-    
-
-
+    <!-- </div> -->
   </body>
 </html>
