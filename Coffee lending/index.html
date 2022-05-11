@@ -1,141 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="style/my.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Karla&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <meta charset="UTF-8" />
-    <title>Coffee style</title>
-  </head>
 
-  <body>
-    <!-- Sprite -->
-    <svg style="display: none">
-      <symbol id="shopping_cart" viewBox="0 0 16 20">
-        <g><path d="M0 0H16V20H0V0Z" /></g>
-      </symbol>
-    </svg>
-    <!-- тег для всех svg иконок работает через  symbol  -->
+<head>
+  <link rel="stylesheet" href="style/my.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8" />
+  <title>Coffee style</title>
+</head>
 
-    <header class="header">
-      <div class="container">
-        <div class="header_inner">
-          <div class="header_logo">
-            <img src="img/header/header1.png" alt="logo" />
-          </div>
-          <nav class="nav">
-            <a class="nav_link" href="#">Home</a>
-            <a class="nav_link" href="#">Our Products</a>
-            <a class="nav_link" href="#">Blog</a>
-            <a class="nav_link" href="#">About</a>
-            <a class="nav_link" href="#">Contact</a>
-            <a class="nav_link" href="#">Styleguide</a>
-            <a class="nav_link" href="#" target="_blank">Cart
-              <hr>
-            </a>
-            
-            </div>
-            
-          
+<body>
+  <!-- Sprite -->
 
-            <!--<svg class="icon">
+  <!--
+  <svg style="display: none">
+    <symbol id="shopping_cart" viewBox="0 0 16 20">
+      <g>
+        <path d="M0 0H16V20H0V0Z" />
+      </g>
+    </symbol>
+  </svg>
+   тег для всех svg иконок работает через  symbol  -->
+
+  <header class="header">
+    <div class="container">
+      <div class="header_inner">
+        <div class="header_logo">
+          <img src="img/header/header1.png" alt="logo" />
+        </div>
+        <nav class="nav">
+          <a class="nav_link" href="#">Home</a>
+          <a class="nav_link" href="#">Our Products</a>
+          <a class="nav_link" href="#">Blog</a>
+          <a class="nav_link" href="#">About</a>
+          <a class="nav_link" href="#">Contact</a>
+          <a class="nav_link" href="#">Styleguide</a>
+          <a class="nav_link" href="#" target="_blank">Cart
+            <hr>
+          </a>
+
+      </div>
+
+
+
+      <!--<svg class="icon">
                 <use xlink:href="#shopping_cart"></use>
                </svg> -->
-            <!-- ссылка на svg иконку \пока не использую.заменю на обычную  -->
+      <!-- ссылка на svg иконку \пока не использую.заменю на обычную  -->
 
-            >
-          </nav>
+      >
+      </nav>
+    </div>
+    </div>
+    <!-- container -->
+  </header>
+
+  <!-- INTRO -->
+  <div class="intro">
+    <div class="container2">
+      <div class="intro_inner">
+        <div class="intro_text">Best place to buy design</div>
+        <h1 class="intro_title">Coffee Mugs</h1>
+        <div class="intro_content">
+          <p>
+            The most versatile furniture system ever created. Designed to fit
+            your life, made to move and grow.
+          </p>
+        </div>
+        <div class="btn">
+          <button><a href="#" class="btn">Explore Our Products</a></button>
         </div>
       </div>
-      <!-- container -->
-    </header>
+      <!-- inner -->
+    </div>
+    <!-- container -->
+  </div>
 
-    <!-- INTRO -->
-    <div class="intro">
-      <div class="container2">
-        <div class="intro_inner">
-          <div class="intro_text">Best place to buy design</div>
-          <h1 class="intro_title">Coffee Mugs</h1>
-          <div class="intro_content">
-            <p>
-              The most versatile furniture system ever created. Designed to fit
-              your life, made to move and grow.
-            </p>
-          </div>
-          <div class="btn">
-            <button><a href="#" class="btn">Explore Our Products</a></button>
-          </div>
+  <div class="featured">
+    <div class="container">
+      <div class="features_inner">
+        <span>
+          <h1 class="featured_title">
+            Even the all-powerful Pointing has no control<br />
+            about the blind texts.
+          </h1>
+        </span>
+        <div class="features_text">
+          <p>
+            It is a paradisematic country, in which roasted parts of sentences
+            fly into your mouth.<br />
+            Even the all-powerful Pointing has no control about the blind
+            texts it is an <br />
+            almost unorthographic life One day however a small line of blind
+            text by the name of Lorem
+            <br />Ipsum decided to leave for the far World of Grammar.
+          </p>
         </div>
-        <!-- inner -->
+        <div id="button">
+          <a class="btn_read" href="#">Read the full Story</a>
+        </div>
       </div>
-      <!-- container -->
+    </div>
+    <!-- container -->
+    <div>
+      <h2 class="space_title"> Featured Mugs</h2>
     </div>
 
-    <div class="featured">
-      <div class="container">
-        <div class="features_inner">
-          <span
-            ><h1 class="featured_title">
-              Even the all-powerful Pointing has no control<br />
-              about the blind texts.
-            </h1></span
-          >
-          <div class="features_text">
-            <p>
-              It is a paradisematic country, in which roasted parts of sentences
-              fly into your mouth.<br />
-              Even the all-powerful Pointing has no control about the blind
-              texts it is an <br />
-              almost unorthographic life One day however a small line of blind
-              text by the name of Lorem
-              <br />Ipsum decided to leave for the far World of Grammar.
-            </p>
-          </div>
-          <div id="button">
-            <a class="btn_read" href="#">Read the full Story</a>
-          </div>
-        </div>
-      </div>
-      <!-- container -->
-      <div><h2 class="space_title"> Featured Mugs</h2></div>
-<!-- Product_block1 -->
-<div class="product">
-  <div class="product_block">
-    <div class="proruct_img">
-        <img class="img_cup" src="img/product/product11.png" alt="cup_of_coffee">
-        <div class="product_info">Pink Premium Ceramic</div>
-        <div class="product_price_0">$ 99.00 USD</div>
+
+    <!-- Product_block1 -->
+    <div class="product">
+
+      <div class="product_block">
+        <div class="proruct_img">
+          <img class="img_cup" src="img/product/product11.png" alt="cup_of_coffee">
+          <div class="product_info">Pink Premium Ceramic</div>
+          <div class="product_price_classic">$ 99.00 USD</div>
         </div>
       </div> <!-- "Product_block"  -->
 
-      <div class="product">
-        <div class="product_block">
-          <div class="proruct_img">
-              <img class="img_cup" src="img/product/product12.png" alt="cup_of_coffee">
-              <div class="product_info">Golden Designers Mug</div>
-              <span class="sale">$ 50.00 USD</span>
-                <span class="product_price_0">$ 69.00 USD</span> 
-                
-              
-              </div>
-            </div> <!-- "Product_block"  -->
-            
+
+      <div class="product_block">
+        <div class="proruct_img">
+          <img class="img_cup" src="img/product/product12.png" alt="cup_of_coffee">
+          <div class="product_info">Golden Designers Mug</div>
+          <span class="sale">$ 50.00 USD</span>
+          <span class="product_price_0">$ 69.00 USD</span>
+
+
+        </div>
+      </div> <!-- "Product_block"  -->
+    </div> <!-- PRODUCT -->
+    <div>
+      <h2 class="space_title"> More products</h2>
+    </div>
+
+    <!-- BLOCK 2. MORE PRODUCT -->
+    <div class="product">
+      <div class="product_block">
+        <div class="proruct_img">
+          <img class="img_cup" src="img/product/product21.png" alt="cup_of_coffee1">
+          <div class="product_info">Red Love Cup</div>
+          <span class="sale">$25.00</span>
+          <span class="product_price_0">$ 37.00 USD</span>
+        </div>
+      </div> <!-- "Product_block"  -->
+
+      <div class="product_block">
+        <div class="proruct_img">
+          <img class="img_cup" src="img/product/product22.png" alt="cup_of_coffee2">
+          <div class="product_info">Black Tea Cup</div>
+          <span class="sale">$15.00</span>
+          <span class="product_price_0">$ 29.00 USD</span>
+        </div>
+      </div> <!-- "Product_block"  -->
+
+      <div class="product_block">
+        <div class="proruct_img">
+          <img class="img_cup" src="img/product/product23.png" alt="cup_of_coffee3">
+          <div class="product_info">B&W Essentials Mug</div>
+          <span class="sale">$ 0.00 USD</span>
+          <span class="product_price_0">$ 19.00 USD</span>
+        </div>
+      </div> <!-- "Product_block"  -->
+    </div>
+    <!--product -->
+
+    <!-- BLOCK 3. MORE PRODUCT -->
+    <div class="product">
+      <div class="product_block">
+        <div class="proruct_img">
+          <img class="img_cup" src="img/product/product31.png" alt="cup_of_coffee1">
+          <div class="product_info">Winter Style Mug</div>
+
+          <span class="product_price_classic">$ 25.00 USD</span>
+        </div>
+      </div> <!-- "Product_block"  -->
+
+      <div class="product_block">
+        <div class="proruct_img">
+          <img class="img_cup" src="img/product/product32.png" alt="cup_of_coffee2">
+          <div class="product_info">Ceramic Tea</div>
+
+          <span class="product_price_0">$ 46.00 USD</span>
+        </div>
+      </div> <!-- "Product_block"  -->
+
+      <div class="product_block">
+        <div class="proruct_img">
+          <img class="img_cup" src="img/product/product33.png" alt="cup_of_coffee3">
+          <div class="product_info">No Handle Bar Cup</div>
+          <span class="product_price_classic">$ 34.00 USD</span>
+        </div>
+      </div> <!-- "Product_block"  -->
+    </div>
+    <!--product -->
 
 
 
+    <!-- BLOCK 4. MORE PRODUCT -->
+    <div class="product">
+
+      <div class="product_block">
+        <div class="proruct_img">
+          <img class="img_cup" src="img/product/product41.png" alt="cup_of_coffee3">
+          <div class="product_info">Espresso Cup by Mugs.co</div>
+          <span class="product_price_classic">$ 25.00 USD</span>
+        </div>
+      </div> <!-- "Product_block"  -->
+
+
+      <div class="product_block">
+        <div class="proruct_img">
+          <img class="img_cup" src="img/product/product42.png" alt="cup_of_coffee">
+          <div class="product_info">Pink Premium Ceramic</div>
+          <div class="product_price_classic">$ 99.00 USD</div>
+        </div>
+      </div> <!-- "Product_block"  -->
+
+      <div class="product_block">
+        <div class="proruct_img">
+          <img class="img_cup" src="img/product/product43.png" alt="cup_of_coffee">
+          <div class="product_info">Summer Designer Cup</div>
+          <div class="product_price_classic">$ 29.00 USD</div>
+        </div>
+      </div> <!-- "Product_block"  -->
 
     </div>
-    <!-- featured -->
+    <div>
+      <h2 class="space_title"> Buy 2 mugs and get a coffee magazine free</h2>
+    </div>
 
-    
-  </body>
-</html>
+    <!-- Premium Offer -->
+   <!-- 
+    <div class="premium_offer">
+      <div class="premium_block">
+        <img src="img/premium offer/prem1.png" alt="book" class="mail">
+        <img src="img/premium offer/prem2.png" alt="cup">
+        <img src="img/premium offer/prem3.png" alt="cup">
+      </div>
+
+
+
+      <div class="premium_block">
+        <h2 class="subtitle">Premium Offer</h2>
+        <h1 class="title">Get our Coffee Magazine</h1>
+        <div class="premium_content">
+          <p>The most versatile furniture system ever created. Designed to fit your life.</p>
+        </div>
+        <a class="btn_black" href="#">Start Shopping</a>
+      </div>
+    </div>
+
+
+
+
+
+
+
+  </div> -->   <!-- featured -->
+
+  <!-- <div class="container2">
+    <div class="back">
+      <img src="img/background/bknd2.png" alt="background_with_cup">
+    </div>
+  </div>
+</body> -->
+
+</html> 
